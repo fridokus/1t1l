@@ -55,15 +55,15 @@ filename = '0119_output_' + computername + '.txt'
 num_cores = multiprocessing.cpu_count()
 
 # Parametersc
-K = K0 = 1500             # !!!!!!!!!!!!!!!!!!!!!
+K = K0 = 750
 N = N0 = 100
 
-s_v = [2e-4]
+s_v = [1e-3]
 deme_cutoff_v = [0]
 sigma = sigma0 = 2
 
 realizations_v = [1 for i in range(len(s_v))] # 20
-n_w_v = [35000 for i in range(len(s_v))] # 2000
+n_w_v = [25000 for i in range(len(s_v))] # 2000
 
 len_H_v = 40
 len_H_v_by_2 = int(len_H_v/2)
