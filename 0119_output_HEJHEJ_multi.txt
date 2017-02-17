@@ -1,0 +1,2388 @@
+
+2017-02-03 15:28:25.749133
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:28.549433
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:28.596311
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:28.627565
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:28.690067
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:31.551027
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:31.560035
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:31.636023
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:31.636023
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:34.230247
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:34.339630
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:36.923255
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:36.938881
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:37.157643
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:37.157643
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:39.643746
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:39.643746
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:39.847884
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:39.847884
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:42.396194
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:42.396194
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:42.505575
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:42.505575
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:45.214238
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:45.253352
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:45.302696
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:45.318321
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:48.093203
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:48.093203
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:48.093203
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:48.124457
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:50.822200
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:50.822200
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:50.822200
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:50.884704
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:53.819330
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:53.850581
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:53.881834
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:53.983851
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:56.559038
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:56.590290
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:56.699671
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:56.715297
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:59.312258
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:59.312258
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:59.390387
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:28:59.406014
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:02.082089
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:02.082089
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:02.128968
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:04.960886
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:04.960886
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:05.007764
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:05.070269
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:07.655246
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:07.686499
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:07.780255
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:07.795880
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:10.377450
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:10.377450
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:10.473710
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:10.486777
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:13.068135
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:13.068135
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:13.224394
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:13.286899
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:15.870523
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:15.901776
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:15.995532
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:16.011159
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:18.639386
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:18.664538
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:18.719318
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:18.734943
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:21.386488
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:21.573998
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:21.620878
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:24.210519
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:24.226145
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:24.523035
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:27.088840
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:27.463859
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:27.557615
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:30.045295
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:30.045295
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:30.498442
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:30.576573
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:32.994402
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:33.004410
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:33.375994
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:33.532251
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:35.900174
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:35.900174
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:36.432405
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:36.573037
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:38.903870
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:38.919496
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:39.466472
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:39.560227
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:41.923846
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:41.923846
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:42.487932
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:42.503559
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:44.911876
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:44.911876
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:45.475952
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:45.491579
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:48.087748
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:48.150253
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:48.823427
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:48.917183
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:51.233646
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:51.374279
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:51.850913
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:51.969344
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:54.378082
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:54.440587
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:54.857000
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:54.935130
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:57.501812
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:57.517438
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:57.806697
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:29:57.947330
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:30:01.267595
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:30:01.283221
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:30:01.533235
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:30:01.642618
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:37.158525
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:39.886641
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:39.886641
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:39.917894
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:39.996023
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:42.770969
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:42.770969
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:42.927227
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:43.052234
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:45.450440
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:45.450440
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:45.700453
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:45.841085
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:48.268011
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:48.289991
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:48.533574
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:48.830465
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:51.014614
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:51.014614
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:51.259897
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:51.661162
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:53.787314
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:53.787314
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:54.119504
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:54.432020
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:56.546761
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:56.578012
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:56.968658
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:57.218671
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:59.242462
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:59.351842
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:59.733103
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:36:59.951864
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:01.920436
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:02.107946
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:02.482967
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:02.686102
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:04.624414
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:04.830762
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:05.203909
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:05.394498
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:07.488706
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:07.504332
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:08.004357
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:08.160616
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:10.200879
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:10.200879
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:10.654030
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:10.919668
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:12.857270
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:12.857270
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:13.344660
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:13.579048
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:15.575263
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:15.575263
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:16.028411
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:16.348577
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:18.440794
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:18.440794
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:18.975700
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:19.194464
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:21.113552
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:21.113552
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:21.723092
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:21.944194
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:23.941397
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:23.942398
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:24.543625
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:24.731135
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:26.742454
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:26.742454
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:27.383113
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:27.586248
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:29.496615
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:29.527866
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:30.293532
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:30.465415
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:32.278011
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:33.182200
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:33.275957
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:35.154516
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:35.154516
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:36.040600
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:36.040600
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:38.081604
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:38.081604
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:39.078223
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:39.125101
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:41.051039
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:42.051092
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:42.066718
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:43.988780
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:43.988780
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:44.941955
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:44.988834
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:47.029053
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:47.029053
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:48.084489
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:48.115744
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:50.067710
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:50.067710
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:51.130265
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:51.161517
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:53.380383
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:53.427261
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:54.376255
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:37:54.407506
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:00.848945
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:03.400435
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:03.416060
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:03.431688
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:03.509817
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:06.566842
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:06.582469
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:06.660600
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:06.723104
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:09.348477
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:09.364104
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:09.426608
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:09.442234
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:12.022991
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:12.022991
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:12.116746
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:12.132375
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:14.695006
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:14.695006
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:14.835640
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:14.851267
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:17.462308
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:17.477935
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:17.665444
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:17.712323
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:20.276709
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:20.354839
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:20.526723
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:23.047658
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:23.063285
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:23.219990
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:23.235614
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:25.735746
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:25.735746
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:25.860754
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:26.001385
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:28.517142
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:28.517142
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:28.595272
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:28.751530
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:31.214432
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:31.214432
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:31.339439
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 15:39:31.448819
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:26.225720
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:28.964941
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:28.980567
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:28.996195
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:29.043073
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:31.757722
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:31.773348
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:31.851478
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:34.399619
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:34.430872
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:34.524627
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:34.524627
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:37.096250
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:37.111875
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:37.205631
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:37.236883
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:39.851757
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:39.883008
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:39.961137
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:39.992389
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:42.634832
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:42.666085
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:42.853594
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:45.486283
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:45.486283
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:45.658167
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:45.689418
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:48.185972
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:48.185972
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:48.389107
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:48.389107
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:50.971992
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:50.971992
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:51.050122
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:51.050122
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:53.647617
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:53.647617
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:53.772624
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:53.788251
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:56.350879
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:56.350879
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:56.554015
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:56.600892
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:59.226658
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:59.226658
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:59.429794
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:20:59.507922
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:01.965286
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:01.980912
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:02.199675
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:02.355933
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:04.628446
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:04.987839
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:05.097221
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:07.340703
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:07.340703
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:07.653220
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:07.762600
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:10.127066
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:10.158320
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:10.533337
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:10.673970
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:13.287875
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:13.334753
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:13.725396
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:13.834777
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:16.134599
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:16.134599
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:16.509619
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:16.525245
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:18.964412
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:18.964412
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:19.261301
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:19.261301
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:21.761730
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:21.761730
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:22.121123
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:22.152376
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:24.730631
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:24.730631
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:25.105650
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:25.180149
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:27.758408
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:28.086550
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:28.133429
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:30.680433
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:30.711685
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:30.977324
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:31.102330
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:33.581672
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:33.628550
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:33.909814
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:34.050446
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:36.480602
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:36.558733
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:36.775045
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:36.978180
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:39.568567
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:39.693575
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:39.787328
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:40.068593
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:42.637775
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:42.666483
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:42.907696
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:43.143005
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:45.662428
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:45.724932
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:45.959318
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:46.146829
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:48.696071
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:48.789826
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:49.008586
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:49.211722
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:51.792844
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:51.855348
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:51.980355
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:52.199115
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:54.840035
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:54.840035
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:54.949418
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:55.168178
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:57.840190
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:57.871442
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:57.918320
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:21:58.168332
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:00.824719
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:00.840345
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:00.934099
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:01.199737
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:03.825397
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:03.841023
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:03.966032
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:04.216042
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:06.826945
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:06.842570
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:07.076957
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:07.358221
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:09.833474
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:09.895979
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:10.177242
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:10.661642
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:13.117954
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:13.117954
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:13.367966
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:13.977373
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:16.102482
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:16.102482
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:16.352494
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:16.964375
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:19.038585
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:19.054211
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:19.319849
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:19.960507
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:22.032833
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:22.032833
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:22.314096
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:22.907877
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:24.986108
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:24.986108
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:25.251747
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:26.064290
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:28.158146
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:28.236276
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:28.559016
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:29.293429
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:31.371660
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:31.387286
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:31.809182
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:32.465467
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:34.371814
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:34.387441
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:34.856214
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:35.543749
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:37.426652
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:37.426652
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:37.895424
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:38.645463
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:40.489308
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:40.489308
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:40.912427
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:41.646840
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:43.475059
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:43.475059
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:44.002979
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:44.711398
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:46.430236
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:46.461487
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:46.992763
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:47.709295
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:49.457851
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:49.489104
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:50.136585
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:50.792869
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:52.464830
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:52.480457
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:53.212735
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:53.853393
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:55.526071
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:55.526071
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:56.322469
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:56.869372
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:58.478830
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:58.478830
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:59.322624
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:22:59.885153
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:01.478984
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:01.478984
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:02.382681
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:02.867081
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:04.523417
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:04.539043
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:05.507842
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:05.945365
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:07.508689
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:07.524316
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:08.555618
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:08.946264
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:10.519413
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:10.566292
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:11.614156
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:12.004801
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:13.500280
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:13.500280
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:14.725914
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:15.147810
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:16.578784
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:16.578784
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:17.869213
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:18.384864
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:19.588051
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:19.588051
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:20.963122
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:21.524527
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:22.680836
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:22.680836
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:24.110176
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:24.594575
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:25.704007
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:25.719634
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:27.204084
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:27.625982
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:28.751039
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:28.782291
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:30.344872
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:30.757523
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:31.866954
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:31.866954
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:33.506622
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:33.803512
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:34.881693
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:34.881693
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:36.663033
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:36.834919
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:38.084983
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:38.100607
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:39.913200
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:39.991331
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:41.238897
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:41.238897
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:43.060353
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:43.091605
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:44.294789
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:44.294789
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:46.212197
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:46.212197
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:47.444325
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:47.491203
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:49.212098
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:49.243350
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:23:59.633078
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:01.508171
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:01.539422
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:03.498092
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:03.513716
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:05.280099
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:05.280099
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:07.139566
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:09.014836
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:10.889932
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:10.889932
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:12.734493
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:14.575019
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:14.575019
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:16.458729
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:18.242930
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:18.242930
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:20.074920
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:20.090545
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:21.959049
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:21.974674
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:23.849849
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:25.678066
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:25.678066
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:27.549094
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:27.549094
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:29.439905
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:29.471156
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:31.440063
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:33.455886
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:33.455886
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:35.284105
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:35.284105
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:37.206159
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:39.175077
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:39.175077
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:41.886119
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:41.886119
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:43.823857
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:43.823857
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:45.792882
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:45.792882
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:47.776218
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:49.760698
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:49.760698
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:51.787597
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:51.787597
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:54.272337
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:54.275396
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:57.029677
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:24:57.039685
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:01.422606
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:01.493653
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:04.114360
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:04.176867
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:07.039993
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:07.208372
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:10.106579
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:10.623924
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:13.676959
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:13.891785
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:16.208382
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:16.452544
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:18.891160
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:19.074321
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:21.192913
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:21.450749
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:23.901956
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:24.038525
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:26.487974
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:26.581733
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:28.576592
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:28.639099
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:30.675713
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:30.675713
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:32.701514
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:34.726323
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:34.726323
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:36.673432
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:36.673432
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:38.666430
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:38.666430
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:40.741282
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:42.705730
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:44.699616
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:46.661713
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:48.608194
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:50.634155
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:50.634155
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:52.931436
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:52.935438
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:54.893291
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:54.893291
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:56.912353
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:58.840324
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:25:58.840324
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:00.822957
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:00.822957
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:02.770842
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:04.724503
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:04.724503
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:06.702119
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:06.702119
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:08.648378
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:10.657552
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:10.657552
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:12.575676
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:14.553971
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:14.553971
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:16.499988
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:18.484695
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:20.478144
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:20.478144
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:22.442448
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:24.408571
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:24.414073
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:26.373676
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:28.376031
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:28.376031
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:30.463205
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:30.588218
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:33.036806
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:33.224318
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:35.238432
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:35.332189
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:37.354740
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:37.448498
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:39.546441
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:42.164122
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:42.164122
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:44.236745
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:46.338081
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:46.338081
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:48.424204
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:48.424204
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:50.590738
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:52.615877
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:54.689070
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:56.611236
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:56.611236
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:58.669945
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:26:58.669945
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:01.151009
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:01.166634
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:03.708938
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:03.912073
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:06.280737
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:06.468249
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:08.317770
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:08.505279
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:10.771133
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:11.021146
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:13.615143
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:13.802653
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:15.724696
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:15.818452
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:17.834285
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:17.834285
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:19.850100
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:19.850100
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:21.912785
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:21.912785
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:24.185451
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:24.211468
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:26.244933
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:28.175635
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:30.171468
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:32.124825
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:34.113492
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:34.113492
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:36.186968
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:36.186968
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:38.171552
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:38.171552
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:40.244189
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:42.227744
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:42.227744
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:44.319363
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:46.366288
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:48.380409
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:48.380409
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:50.601752
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:50.601752
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:52.594863
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:54.651176
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:54.698056
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:56.728891
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:27:58.737133
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:00.702084
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:02.644732
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:04.676286
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:06.767545
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:08.763531
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:10.903352
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:12.850087
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:12.850087
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:15.026304
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:15.041930
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:17.058134
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:19.113858
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:19.113858
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:21.154698
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:21.154698
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:23.163609
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:25.141651
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:27.223732
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:29.312147
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:31.394626
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:31.394626
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:33.518831
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:33.518831
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:35.567102
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:35.567102
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:37.548444
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:39.551311
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:41.541991
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:41.541991
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:43.535893
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:43.645271
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:45.613650
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:45.623656
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:47.696989
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:49.724585
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:51.797360
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:51.797360
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:53.953835
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:53.953835
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:56.135739
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:58.207654
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:28:58.208654
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:29:00.245999
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:29:02.327166
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:29:04.346525
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:29:04.455909
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:29:06.387719
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:29:06.528348
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:29:08.480842
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:29:08.621475
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:29:11.279901
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:29:11.279901
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:29:13.707854
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:29:13.707854
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:30:19.611224
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:30:21.606457
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:30:21.637710
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:30:23.495560
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:30:23.589318
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:30:25.717691
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-03 16:30:25.849236
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 

@@ -1,0 +1,9 @@
+
+2017-02-01 13:32:42.633157
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-01 13:56:19.393317
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
+
+2017-02-01 14:15:58.233154
+s, K, N, sigma, <w(p)>, w(<p>), w_theo, n_real, <F> 
