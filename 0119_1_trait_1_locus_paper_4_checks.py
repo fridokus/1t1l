@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 import datetime
 import os
 import json
+from scipy.stats import truncnorm
 
 def Colors(wantedColor):
     return{
@@ -46,14 +47,15 @@ def PlotAndSave(xarrays,yarrays,xlabel,ylabel,title,savename, labels):
     
 # Constants    
 computername = os.environ['COMPUTERNAME']
-filename = '0119_output_' + computername + '.txt'
+filename = '0119_output_' + computername + '_scheme3.txt'
 
 # Parameters
 K = K0 = 150
 N = N0 = 100
 
-s_v = [10**(-i/8) for i in range(18, 21)]
-sigma = sigma0 = .65
+#s_v = [10**(-i/8) for i in range(9, 14)]
+s_v = [1e-2]
+sigma = sigma0 = .8
 
 realizations_v = [20 for i in range(len(s_v))]  # 20
 n_w_v = [1000 for i in range(len(s_v))] # 2000
@@ -62,7 +64,7 @@ len_H_v = 40
 len_H_v_by_2 = int(len_H_v/2)
 resolution = 10
 
-plot = 0
+plot = 1
 
 savedata = 1
 
@@ -73,6 +75,10 @@ rescale_factor = .1
 mu = 1e-5
 
 tol_equil = 1e-1 # 1e-5?
+
+trunc_limit = 20
+trunc_size = 10000
+
 
 # Init
 
@@ -87,6 +93,13 @@ with open(filename, 'a') as f:
     f.write(str(datetime.datetime.now()))
     f.write('\n')
     f.write('s,K,N,sigma,<w(p)>,w(<p>),w_theo,n_real,<F>\n')
+    
+trunc_norm = []
+
+for i in range(-trunc_limit, trunc_limit):
+
+    r = truncnorm.rvs(i, i+1, size = trunc_size, scale = sigma) / sigma
+    trunc_norm.append(r)
 
 for s_i, s in enumerate(s_v):
     
@@ -142,8 +155,9 @@ for s_i, s in enumerate(s_v):
                 for i, ind in enumerate(alleles[deme]):
                     
                     # ind = alleles[deme][i]
-                    
-                    move = int(moves[deme*N + i])
+                    move = int(round(moves[deme*N + i]))
+                    # move = moves[deme*N + i]
+                    # move = floor(move) + (move%1 > np.random.rand())
                     
                     if deme + move < 0:
                         new_loc = 0
@@ -299,11 +313,11 @@ for s_i, s in enumerate(s_v):
     #w_max_of_av_cline_v = 
     x = list(range(min_len))
     
-    labels = ['<w(p)>', 'w(<p>)', 'w_theo', '(1-<F>)w(<p>)']
+    labels = [r'$\overline{w(p)}$', r'$w(\overline{p})$', r'$(1-\overline{F} ) w(\overline{p})$', r'$\sqrt{\frac{3}{s}} \sigma$']
               
-    args = [[x,x,x,x], [av_w_max_of_cline_v, w_max_of_av_cline_v, [w_theo for i in range(min_len)], w_max_of_av_cline_v_modif],\
+    args = [[x,x,x,x], [av_w_max_of_cline_v, w_max_of_av_cline_v, w_max_of_av_cline_v_modif, [w_theo for i in range(min_len)]],\
                 'iteration / %d' % resolution, 'w', r'w(time), $\sigma =$ %.1f, s = %.3f' % (sigma, s),\
-                '0119_w_s_%.3f_sigma_%.1f_rscl_%.2f.png' % (s, sigma, rescale * rescale_factor), labels]
+                '0119_w_s_%.3f_sigma_%.1f_rscl_%.2f_sch3.png' % (s, sigma, rescale * rescale_factor), labels]
     
     if rescale:
         args[-3] = r'w(time), $\sigma =$ %.1f, s = %.3f, rescale = %.1f' % (sigma, s, rescale_factor)

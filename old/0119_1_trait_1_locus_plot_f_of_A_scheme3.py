@@ -13,6 +13,7 @@ import os
 from joblib import Parallel, delayed
 import multiprocessing
 import json
+from scipy.stats import truncnorm
 
 def TheoClineFcn(s, sigma):
     return lambda x: (-2 + 3*(tanh(x*sqrt(s/2)/sigma + atanh(sqrt(2/3)))**2))/2 + .5
@@ -51,7 +52,7 @@ def PlotAndSave(xarrays,yarrays,xlabel,ylabel,title,savename, labels):
     
 # Constants    
 computername = os.environ['COMPUTERNAME']
-filename = '0119_output_' + computername + '_scheme2.txt'
+filename = '0119_output_' + computername + '_scheme3.txt'
 num_cores = multiprocessing.cpu_count()
 
 # Parametersc
@@ -79,6 +80,8 @@ mu = 1e-5
 
 tol_equil = 1e-1 # 1e-5?
 
+trunc_limit = 20
+trunc_size = 10000
 
 # Init
 
@@ -94,6 +97,13 @@ with open(filename, 'a') as f:
     f.write('\n')
     f.write('s,K,N,sigma,<w(p)>,w(<p>),w_theo,n_real,<F>\n')
     
+trunc_norm = []
+
+for i in range(-trunc_limit, trunc_limit):
+
+    r = truncnorm.rvs(i, i+1, size = trunc_size, scale = sigma) / sigma
+    trunc_norm.append(r)
+
 for s_i, s in enumerate(s_v):
     
     n_w = n_w_v[s_i]
@@ -149,9 +159,13 @@ for s_i, s in enumerate(s_v):
                     
                     # ind = alleles[deme][i]
                     # move = moves[deme*N + i]
-                    move = int(round(moves[deme*N + i]))
-                    # move = moves[deme*N + i]
-                    # move = floor(move) + ((move % 1) > np.random.rand())
+                    move = moves[deme*N + i]
+
+                    if abs(move) >= trunc_limit:
+                        move = int(move)
+                    else:
+                        move = floor(move) +\
+                            (move > trunc_norm[floor(move) + trunc_limit][np.random.randint(trunc_size)])
 
                     if deme + move < 0:
                         new_loc = 0
@@ -283,7 +297,7 @@ for s_i, s in enumerate(s_v):
         plt.xlabel('Deme')
         plt.ylabel('<f(A)>')
         plt.grid(True)
-        plt.savefig('0119_sigma_%.1E_s_%.1E_means_K_%d_3.eps' % (sigma, s, K), format='eps', dpi=900)
+        plt.savefig('0119_sigma_%.1E_s_%.1E_means_K_%d_4.eps' % (sigma, s, K), format='eps', dpi=900)
         
         
         #w_max = 3 / 4 * w_2_mean
