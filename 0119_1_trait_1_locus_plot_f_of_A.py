@@ -51,7 +51,7 @@ def PlotAndSave(xarrays,yarrays,xlabel,ylabel,title,savename, labels):
     
 # Constants    
 computername = os.environ['COMPUTERNAME']
-filename = '0119_output_' + computername + '_scheme2.txt'
+filename = '0119_output_' + computername + '.txt'
 num_cores = multiprocessing.cpu_count()
 
 # Parametersc
@@ -59,21 +59,23 @@ K = K0 = 150
 N = N0 = 100
 
 s_v = [1e-2]
-deme_cutoff_v = [60]
-sigma = sigma0 = .1
+deme_cutoff_v = [50]
+sigma = sigma0 = .5
 
 realizations_v = [1 for i in range(len(s_v))] # 20
-n_w_v = [1000 for i in range(len(s_v))] # 2000
+n_w_v = [2000 for i in range(len(s_v))] # 2000
 
 len_H_v = 40
 len_H_v_by_2 = int(len_H_v/2)
 resolution = 10
 
 rescale = 0
-
+reject_high_sd = 1
 savedata = 1
+deterministic_start = 1
 
-rescale_factor = 3
+
+rescale_factor = 4
 
 mu = 1e-5
 
@@ -96,10 +98,12 @@ with open(filename, 'a') as f:
     
 for s_i, s in enumerate(s_v):
     
+    sigma_sq_scaled = (1 + 1e-6) * sigma**2
+    
     n_w = n_w_v[s_i]
     realizations = realizations_v[s_i]
     
-    print('s = %.4f, sigma = %.3f' % (s, sigma))
+    print('s = %.4f, sigma = %.3f, K = %d, N = %d' % (s, sigma, K, N))
     
     env_change = int(K/2)
 
@@ -121,9 +125,19 @@ for s_i, s in enumerate(s_v):
         print('realization no. %d' % (r_i+1))
 
         # Initialization of realization
-        
-        alleles = [[[0, 0] for i in range(N)] if j < env_change else [[1, 1] for i in range(N)] for j in range(K)]
-        
+        if not deterministic_start:
+            alleles = [[[0, 0] for i in range(N)] if j < env_change else [[1, 1] for i in range(N)] for j in range(K)]
+        else:
+            alleles = [[] for deme in range(K)]
+            cline = TheoClineFcn(s, sigma)
+            theo_cline_values = [((env_change <= j)*2 - 1)*cline(abs(env_change -.5 - j)) + (env_change > j) for j in range(K)]
+            for deme in range(K):
+                for n in range(N):
+                    if n < N * theo_cline_values[deme]:
+                        alleles[deme].append([1, 1])
+                    else:
+                        alleles[deme].append([0, 0])
+                        
         w_pq_v = []
         w_iter = 0
 
@@ -139,7 +153,14 @@ for s_i, s in enumerate(s_v):
             
             # Migration
             
-            moves = np.random.normal(0, sigma, K * N)
+            moves = np.round(np.random.normal(0, sigma, K * N))
+            
+            if reject_high_sd:
+                i = 0
+                while np.var(moves) > sigma_sq_scaled:
+                    moves[i] = int(moves[i]/2)
+                    i += 1
+                    
             
             alleles_new = [[] for j in range(K)]
             
@@ -149,7 +170,7 @@ for s_i, s in enumerate(s_v):
                     
                     # ind = alleles[deme][i]
                     # move = moves[deme*N + i]
-                    move = int(round(moves[deme*N + i]))
+                    move = int(moves[deme*N + i])
                     # move = moves[deme*N + i]
                     # move = floor(move) + ((move % 1) > np.random.rand())
 
@@ -218,7 +239,7 @@ for s_i, s in enumerate(s_v):
                 
                 if not equil:
                     
-                    if True: #len(H_v) >= len_H_v:
+                    if len(H_v) >= len_H_v:
                         
                         # Criteria for equilibrium
                         if abs(sum(H_v[-len_H_v:-len_H_v_by_2]) - \
@@ -283,7 +304,7 @@ for s_i, s in enumerate(s_v):
         plt.xlabel('Deme')
         plt.ylabel('<f(A)>')
         plt.grid(True)
-        plt.savefig('0119_sigma_%.1E_s_%.1E_means_K_%d_3.eps' % (sigma, s, K), format='eps', dpi=900)
+        plt.savefig('0119_sigma_%.1E_s_%.1E_K_%d_re_%d_N_%d.eps' % (sigma, s, K, reject_high_sd, N), format='eps', dpi=900)
         
         
         #w_max = 3 / 4 * w_2_mean
@@ -330,36 +351,6 @@ for s_i, s in enumerate(s_v):
         with open('D:\\' + filenamedata + str(i) + '.txt', 'w') as f:
             json.dump(freqs_vv, f)
     
-    
-    '''
-    #w_max_of_av_cline_v = 
-    x = list(range(min_len))
-    
-    labels = ['<w(p)>', 'w(<p>)', 'w_theo', '(1-<F>)w(<p>)']
-              
-    args = [[x,x,x,x], [av_w_pq_of_cline_v, w_pq_of_av_cline_v, [w_theo for i in range(min_len)], w_pq_of_av_cline_v_modif],\
-                'iteration / %d' % resolution, 'w', 'Different estimates of w as a function of time, s = %.1E' % s,\
-                '0119_w_s_%.1E_F_rscl_%d.png' % (s, rescale * rescale_factor), labels]
-    
-    if rescale:
-        args[5] = 'Different estimates of w, rescale factor %d, s = %.1E' % (rescale_factor, s)
-
-    PlotAndSave(*args)
-    
-    
-    with open(filename, 'a') as f:
-        f.write('%f,%d,%d,%f,%f,%f,%f,%d,%f\n' % \
-                (s, K, N, sigma, av_w_pq_of_cline, w_pq_of_av_cline, w_theo, realizations, F_mean))
-        
-    filenamedata = '0119_output_' + computername + '_data_s_%.1e_sigma_%.1e_rscl_%d.txt' % (s, sigma, rescale * rescale_factor)
-    
-    with open(filenamedata, 'w') as f:
-        f.write('freqs_vv = ')
-        f.write(str(freqs_vv))
-        f.write('\n')
-        f.write('w_pq_mean_v = ')
-        f.write(str(w_pq_mean_v))
-    '''
         
         
         

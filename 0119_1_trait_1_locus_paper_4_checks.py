@@ -13,18 +13,8 @@ import os
 import json
 from scipy.stats import truncnorm
 
-def Colors(wantedColor):
-    return{
-            0: 'r',
-            1: 'b',
-            2: 'g',
-            3: 'k',
-            4: 'c',
-            5: 'm',
-            6: 'y',
-            7: '0.75',
-            8: '0.90'
-            }[wantedColor]
+def TheoClineFcn(s, sigma):
+    return lambda x: (-2 + 3*(tanh(x*sqrt(s/2)/sigma + atanh(sqrt(2/3)))**2))/2 + .5
 
 def PlotAndSave(xarrays,yarrays,xlabel,ylabel,title,savename, labels):
    
@@ -47,38 +37,34 @@ def PlotAndSave(xarrays,yarrays,xlabel,ylabel,title,savename, labels):
     
 # Constants    
 computername = os.environ['COMPUTERNAME']
-filename = '0119_output_' + computername + '_scheme3.txt'
+filename = '0119_output_' + computername + '.txt'
 
 # Parameters
 K = K0 = 150
 N = N0 = 100
 
-#s_v = [10**(-i/8) for i in range(9, 14)]
-s_v = [1e-2]
-sigma = sigma0 = .8
+s_v = [10**(-i/8) for i in range(30, 32)]
+#s_v = [1e-3]
+sigma = sigma0 = 1
 
 realizations_v = [20 for i in range(len(s_v))]  # 20
-n_w_v = [1000 for i in range(len(s_v))] # 2000
+n_w_v = [500 for i in range(len(s_v))] # 2000
 
-len_H_v = 40
+len_H_v = 40 # !!!!!!!!!!!!!!!!!!!!!!!!
 len_H_v_by_2 = int(len_H_v/2)
 resolution = 10
 
-plot = 1
-
+plot = 0
 savedata = 1
+deterministic_start = 1
 
-rescale = 0
+rescale = 1
 
-rescale_factor = .1
+rescale_factor = 4
 
 mu = 1e-5
 
 tol_equil = 1e-1 # 1e-5?
-
-trunc_limit = 20
-trunc_size = 10000
-
 
 # Init
 
@@ -93,20 +79,13 @@ with open(filename, 'a') as f:
     f.write(str(datetime.datetime.now()))
     f.write('\n')
     f.write('s,K,N,sigma,<w(p)>,w(<p>),w_theo,n_real,<F>\n')
-    
-trunc_norm = []
-
-for i in range(-trunc_limit, trunc_limit):
-
-    r = truncnorm.rvs(i, i+1, size = trunc_size, scale = sigma) / sigma
-    trunc_norm.append(r)
 
 for s_i, s in enumerate(s_v):
     
     n_w = n_w_v[s_i]
     realizations = realizations_v[s_i]
     
-    print('s = %f' % s)
+    print('s = %.4f, sigma = %.3f, K = %d, N = %d' % (s, sigma, K, N))
     
     env_change = int(K/2)
 
@@ -128,9 +107,18 @@ for s_i, s in enumerate(s_v):
         print('realization no. %d' % (r_i+1))
 
         # Initialization of realization
-        
-        alleles = [[[0, 0] for i in range(N)] if j < env_change else [[1, 1] for i in range(N)] for j in range(K)]
-        
+        if not deterministic_start:
+            alleles = [[[0, 0] for i in range(N)] if j < env_change else [[1, 1] for i in range(N)] for j in range(K)]
+        else:
+            alleles = [[] for deme in range(K)]
+            cline = TheoClineFcn(s, sigma)
+            theo_cline_values = [((env_change <= j)*2 - 1)*cline(abs(env_change -.5 - j)) + (env_change > j) for j in range(K)]
+            for deme in range(K):
+                for n in range(N):
+                    if n < N * theo_cline_values[deme]:
+                        alleles[deme].append([1, 1])
+                    else:
+                        alleles[deme].append([0, 0])
         w_pq_v = []
         w_iter = 0
 
@@ -225,12 +213,12 @@ for s_i, s in enumerate(s_v):
                 
                 if not equil:
                     
-                    if True: #len(H_v) >= len_H_v:
+                    if len(H_v) >= len_H_v:
                         
                         # Criteria for equilibrium
-                        if abs(sum(H_v[-len_H_v:-len_H_v_by_2]) - \
-                               sum(H_v[-len_H_v_by_2:]))/len_H_v_by_2 < tol_equil:
-                            
+                        #if abs(sum(H_v[-len_H_v:-len_H_v_by_2]) - \
+                        #       sum(H_v[-len_H_v_by_2:]))/len_H_v_by_2 < tol_equil:
+                        if True:    
                             equil = True
                             print('equil')
                         
@@ -245,7 +233,7 @@ for s_i, s in enumerate(s_v):
             
         # Calculations each realization
         
-        w_pq_mean = sum(w_pq_v[-n_w:])/n_w
+        w_pq_mean = np.mean(w_pq_v[-n_w:])
         w_max_mean = 3/4 * w_pq_mean
 
         print('w_pq = %.5E' % w_pq_mean)
@@ -317,7 +305,7 @@ for s_i, s in enumerate(s_v):
               
     args = [[x,x,x,x], [av_w_max_of_cline_v, w_max_of_av_cline_v, w_max_of_av_cline_v_modif, [w_theo for i in range(min_len)]],\
                 'iteration / %d' % resolution, 'w', r'w(time), $\sigma =$ %.1f, s = %.3f' % (sigma, s),\
-                '0119_w_s_%.3f_sigma_%.1f_rscl_%.2f_sch3.png' % (s, sigma, rescale * rescale_factor), labels]
+                '0119_w_s_%.3f_sigma_%.1f_rscl_%.2f.png' % (s, sigma, rescale * rescale_factor), labels]
     
     if rescale:
         args[-3] = r'w(time), $\sigma =$ %.1f, s = %.3f, rescale = %.1f' % (sigma, s, rescale_factor)

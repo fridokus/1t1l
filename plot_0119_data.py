@@ -55,6 +55,8 @@ def PlotAndSave2(xarrays,yarrays,xlabel,ylabel,title,savename):
     # plt.legend(handles=legend_line)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
+    axes = plt.gca()
+    axes.set_ylim([0, .35])
     plt.title(title)
     plt.grid(True)
     plt.subplots_adjust(left=0.1, right=.9, top=0.9, bottom=0.1)
@@ -64,48 +66,53 @@ def PlotAndSave2(xarrays,yarrays,xlabel,ylabel,title,savename):
             
 df = pd.read_csv('0119_data.txt')
 
-sigma_v = [.5, .65, .8, 1, 2]
-
-s_vv = []
-
-av_w_of_p_vv = []
-w_of_av_p_vv = []
-#w_theo_vv = []
-F_vv = []
-w_of_av_p_modif_vv = []
-rel_diff_vv = []
-
-for i, sigma in enumerate(sigma_v):
-    s_vv.append(df['s'][df['sigma'] == sigma][df['K'] == 150])
-    av_w_of_p_vv.append(df['<w(p)>'][df['sigma'] == sigma][df['K'] == 150]*4/3)
-    w_of_av_p_vv.append(df['w(<p>)'][df['sigma'] == sigma][df['K'] == 150]*4/3)
-    #w_theo_vv.append(df['w_theo'][df['sigma'] == sigma][df['K'] == 150])
-    w_theo_here = df['w_theo'][df['sigma'] == sigma][df['K'] == 150]
-    F_vv.append(df['<F>'][df['sigma'] == sigma][df['K'] == 150])
-    w_of_av_p_modif_vv.append((1 - F_vv[i]) * w_of_av_p_vv[i])
-    rel_diff_vv.append(np.abs(w_of_av_p_vv[-1] - w_theo_here)/w_theo_here)
+sigma_vv = [[.5, 1, 2], [.25]]
+K_v = [150, 37]
 
 
-s_v_theo = np.arange(np.min(s_vv[0])/4*2.5, np.max(s_vv[0]) + np.min(s_vv[0]), 1e-4)
-w_theo_vv = [[w_theo(s, sigma) for s in s_v_theo] for sigma in sigma_v]
+for K_i, sigma_v in enumerate(sigma_vv):
+
+    s_vv = []
+    av_w_of_p_vv = []
+    w_of_av_p_vv = []
+    #w_theo_vv = []
+    F_vv = []
+    w_of_av_p_modif_vv = []
+    rel_diff_vv = []
+
+    K = K_v[K_i]
     
-labels = [r'$\overline{w(p)}$', r'$w(\overline{p})$', r'$(1-\overline{F} ) w(\overline{p})$', r'$\sqrt{\frac{3}{s}} \sigma$']
-          
-for i, sigma in enumerate(sigma_v):
-
-    args = [[1/np.sqrt(s_vv[i]) for j in range(3)] + [1/np.sqrt(s_v_theo)],\
-            [av_w_of_p_vv[i], w_of_av_p_vv[i], w_of_av_p_modif_vv[i], w_theo_vv[i]],\
-                r'$1/\sqrt{s}$', r'$w$', r'$w(1/\sqrt{s})$, $\sigma _D$ = %.2f' % sigma,\
-                'w_of_s_%d.png' % i, labels]
-            
-    PlotAndSave(*args)
-
-    args = [[1/np.sqrt(s_vv[i]) for j in range(2)],\
-            [rel_diff_vv[i], [1 for j in range(len(s_vv[i]))]],\
-                r'$1/\sqrt{s}$', r'$(w(\overline{p}) - \sqrt{\frac{3}{s}} \sigma)/w(\overline{p})$', r'Simulated and theoretical $w$, relative difference, $\sigma _D$ = %.2f' % sigma,\
-                'rel_diff_%d.png' % i]
-            
-    PlotAndSave2(*args)
+    for i, sigma in enumerate(sigma_v):
+        s_vv.append(df['s'][df['sigma'] == sigma][df['K'] == K])
+        av_w_of_p_vv.append(df['<w(p)>'][df['sigma'] == sigma][df['K'] == K]*3/4)
+        w_of_av_p_vv.append(df['w(<p>)'][df['sigma'] == sigma][df['K'] == K]*3/4)
+        #w_theo_vv.append(df['w_theo'][df['sigma'] == sigma][df['K'] == K])
+        w_theo_here = df['w_theo'][df['sigma'] == sigma][df['K'] == K]
+        F_vv.append(df['<F>'][df['sigma'] == sigma][df['K'] == K])
+        w_of_av_p_modif_vv.append((1 - F_vv[i]) * w_of_av_p_vv[i])
+        rel_diff_vv.append(np.abs(w_of_av_p_vv[-1] - w_theo_here)/w_theo_here)
+    
+    
+    s_v_theo = np.arange(np.min(s_vv[0])/4*3.5, np.max(s_vv[0]) + np.min(s_vv[0]), 1e-4)
+    w_theo_vv = [[w_theo(s, sigma) for s in s_v_theo] for sigma in sigma_v]
+        
+    labels = [r'$\overline{w(p)}$', r'$w(\overline{p})$', r'$(1-\overline{F} ) w(\overline{p})$', r'$\sqrt{\frac{3}{s}} \sigma$']
+              
+    for i, sigma in enumerate(sigma_v):
+    
+        args = [[1/np.sqrt(s_vv[i]) for j in range(3)] + [1/np.sqrt(s_v_theo)],\
+                [av_w_of_p_vv[i], w_of_av_p_vv[i], w_of_av_p_modif_vv[i], w_theo_vv[i]],\
+                    r'$1/\sqrt{s}$', r'$w$', r'$w(1/\sqrt{s})$, $\sigma$ = %.2f' % sigma,\
+                    'w_of_s_K_%d_nr_%d.png' % (K, i), labels]
+                
+        PlotAndSave(*args)
+    
+        args = [[1/np.sqrt(s_vv[i])],\
+                [rel_diff_vv[i]],\
+                    r'$1/\sqrt{s}$', r'$\left| w(\overline{p}) - \sqrt{\frac{3}{s}} \sigma \right| /\sqrt{\frac{3}{s}} \sigma$', r'Simulated and theoretical $w$, relative difference, $\sigma$ = %.2f' % sigma,\
+                    'rel_diff_K_%d_nr_%d.png' % (K, i)]
+                
+        PlotAndSave2(*args)
     
 '''
 s = round(float(10**(-7/4)), 6)
