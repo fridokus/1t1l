@@ -5,17 +5,15 @@ Created on Thu Jan 19 14:44:09 2017
 @author: Issun
 """
 
-from math import *
+import math as m
 import numpy as np
 import matplotlib.pyplot as plt
 import datetime
 import os
-from joblib import Parallel, delayed
-import multiprocessing
 import json
 
 def TheoClineFcn(s, sigma):
-    return lambda x: (-2 + 3*(tanh(x*sqrt(s/2)/sigma + atanh(sqrt(2/3)))**2))/2 + .5
+    return lambda x: (-2 + 3*(m.tanh(x*m.sqrt(s/2)/sigma + m.atanh(m.sqrt(2/3)))**2))/2 + .5
 
 def Colors(wantedColor):
     return{
@@ -52,32 +50,37 @@ def PlotAndSave(xarrays,yarrays,xlabel,ylabel,title,savename, labels):
 # Constants    
 computername = os.environ['COMPUTERNAME']
 filename = '0119_output_' + computername + '.txt'
-num_cores = multiprocessing.cpu_count()
 
 # Parametersc
 K = K0 = 150
-N = N0 = 100
+N = N0 = 25
 
-s_v = [1e-2]
-deme_cutoff_v = [50]
-sigma = sigma0 = .5
+s_v = [1e-3]
+deme_cutoff_v = [0]
+sigma = sigma0 = 1
 
 realizations_v = [1 for i in range(len(s_v))] # 20
-n_w_v = [2000 for i in range(len(s_v))] # 2000
+n_w_v = [500000 for i in range(len(s_v))] # 2000
 
-len_H_v = 40
+delay = 1000
+
+notifications = 5
+
+len_H_v = 2
 len_H_v_by_2 = int(len_H_v/2)
 resolution = 10
 
-rescale = 0
-reject_high_sd = 1
+rescale = 1
+reject_high_sd = 0
 savedata = 1
 deterministic_start = 1
 
 
 rescale_factor = 4
 
-mu = 1e-5
+
+
+mu = .15 / N / K / 20 # 1e-5 for K = 150, N = 100
 
 tol_equil = 1e-1 # 1e-5?
 
@@ -87,8 +90,8 @@ tol_equil = 1e-1 # 1e-5?
 if rescale:
     
     sigma = sigma0/rescale_factor
-    N = rescale_factor * N0
-    K = int(K0/rescale_factor)
+    N = int(rescale_factor * N0)
+    K = 2*m.ceil(K0/rescale_factor/2)
 
 with open(filename, 'a') as f:
     f.write('\n')
@@ -103,7 +106,7 @@ for s_i, s in enumerate(s_v):
     n_w = n_w_v[s_i]
     realizations = realizations_v[s_i]
     
-    print('s = %.4f, sigma = %.3f, K = %d, N = %d' % (s, sigma, K, N))
+    print('s = %.4f, sigma = %.3f, K = %d, N = %d, mu = %.1e' % (s, sigma, K, N, mu))
     
     env_change = int(K/2)
 
@@ -220,7 +223,10 @@ for s_i, s in enumerate(s_v):
             
             # Iteration and calculation of frequencies
             
-            if not iteration % resolution:
+            if (not iteration % resolution) and (iteration > delay):
+                
+                if not iteration % int(n_w/notifications):
+                    print('%.2f done' % ((w_iter*resolution + delay)/(n_w*resolution + delay)))
             
                 freqs = [0 for i in range(K)]
                 
@@ -304,15 +310,19 @@ for s_i, s in enumerate(s_v):
         plt.xlabel('Deme')
         plt.ylabel('<f(A)>')
         plt.grid(True)
-        plt.savefig('0119_sigma_%.1E_s_%.1E_K_%d_re_%d_N_%d.eps' % (sigma, s, K, reject_high_sd, N), format='eps', dpi=900)
+        figname = 'f_A_sigma%.1e_s%.1e_K%d_N%d_mu%.1e_nw%d_' % (sigma, s, K, N, mu, n_w)
+        i = 0
+        while os.path.isfile(figname + str(i) + '.eps'):
+            i += 1
+        plt.savefig(figname + str(i) + '.eps', format='eps', dpi=900)
         
         
         #w_max = 3 / 4 * w_2_mean
-        w_theo = sqrt(3*sigma**2 / s)
+        w_theo = m.sqrt(3*sigma**2 / s)
         
     # Final calculations and plots
         
-    w_theo = sqrt(3*sigma**2 / s) # !!!!!!!!! 
+    w_theo = m.sqrt(3*sigma**2 / s) # !!!!!!!!! 
     
     min_len = min([len(i) for i in w_pq_vv])
     

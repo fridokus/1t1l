@@ -5,21 +5,28 @@ Created on Thu Jan 19 14:44:09 2017
 @author: Issun
 """
 
-from math import *
+import math as m
 import numpy as np
 import matplotlib.pyplot as plt
 import datetime
 import os
 import json
-from scipy.stats import truncnorm
+import scipy.stats as stats
 
 def TheoClineFcn(s, sigma):
-    return lambda x: (-2 + 3*(tanh(x*sqrt(s/2)/sigma + atanh(sqrt(2/3)))**2))/2 + .5
+    return lambda x: (-2 + 3*(m.tanh(x*m.sqrt(s/2)/sigma + m.atanh(m.sqrt(2/3)))**2))/2 + .5
 
-def PlotAndSave(xarrays,yarrays,xlabel,ylabel,title,savename, labels):
+def PlotAndSave(xarrays,yarrays,xlabel,ylabel,title,savename,labels):
    
     for i in range(len(yarrays)):
-        plt.plot(xarrays[i], yarrays[i][0:len(xarrays[i])], c = plt.cm.rainbow(i/len(yarrays)), label = labels[i])
+        if i in [2, 3]:
+            plt.plot(xarrays[i], yarrays[i][0:len(xarrays[i])], '-.',\
+                     c = plt.cm.rainbow(1/len(yarrays)), label = labels[i], alpha = .8)
+            
+        else:
+            plt.plot(xarrays[i], yarrays[i][0:len(xarrays[i])],\
+                     c = plt.cm.rainbow(i/len(yarrays)), label = labels[i])
+        
         
         #legend_line.append(mlines.Line2D([], [], color=plt.cm.rainbow(i/len(yarrays)), label=r'$S_%d$' % i))
     
@@ -30,7 +37,7 @@ def PlotAndSave(xarrays,yarrays,xlabel,ylabel,title,savename, labels):
     plt.title(title)
     plt.grid(True)
     plt.subplots_adjust(left=0.1, right=.75, top=0.9, bottom=0.1)
-    plt.savefig(savename, format='png', dpi=900)
+    plt.savefig(savename, format='eps', dpi=900)
     plt.show()
     plt.clf()
     
@@ -43,23 +50,25 @@ filename = '0119_output_' + computername + '.txt'
 K = K0 = 150
 N = N0 = 100
 
-s_v = [10**(-i/8) for i in range(30, 32)]
-#s_v = [1e-3]
-sigma = sigma0 = 1
+#s_v = [10**(-i/6) for i in range(7, 10)]
+s_v = [1e-3]
+sigma = sigma0 = .5
 
 realizations_v = [20 for i in range(len(s_v))]  # 20
-n_w_v = [500 for i in range(len(s_v))] # 2000
+n_w_v = [10 for i in range(len(s_v))] # 2000
+delay = 0
 
-len_H_v = 40 # !!!!!!!!!!!!!!!!!!!!!!!!
+len_H_v = 1 # !!!!!!!!!!!!!!!!!!!!!!!!
 len_H_v_by_2 = int(len_H_v/2)
-resolution = 10
+resolution = 20
+bootstrap_n = 100
 
 plot = 0
-savedata = 1
-deterministic_start = 1
+savedata = 0
+deterministic_start = 0
+tm = 1
 
-rescale = 1
-
+rescale = 0
 rescale_factor = 4
 
 mu = 1e-5
@@ -78,7 +87,7 @@ with open(filename, 'a') as f:
     f.write('\n')
     f.write(str(datetime.datetime.now()))
     f.write('\n')
-    f.write('s,K,N,sigma,<w(p)>,w(<p>),w_theo,n_real,<F>\n')
+    f.write('s,K,N,sigma,<w(p)>,w(<p>),w_theo,n_real,<F>,iter\n')
 
 for s_i, s in enumerate(s_v):
     
@@ -194,7 +203,7 @@ for s_i, s in enumerate(s_v):
             
             # Iteration and calculation of frequencies
             
-            if not iteration % resolution:
+            if (not iteration % resolution) and (iteration >= delay):
             
                 freqs = [0 for i in range(K)]
                 
@@ -269,16 +278,55 @@ for s_i, s in enumerate(s_v):
         
     # Final calculations and plots
         
-    w_theo = sqrt(3*sigma**2 / s) # !!!!!!!!! 
+    w_theo = m.sqrt(3*sigma**2 / s) # !!!!!!!!! 
     
     min_len = min([len(i) for i in w_pq_vv])
     
     F_mean = np.mean(F_v)
     
-    av_cline = [[sum([freqs_vv[r_i][t][deme] for r_i in range(realizations)])/realizations \
+    av_cline = [[np.mean([freqs_vv[r_i][t][deme] for r_i in range(realizations)])\
                 for deme in range(K)] for t in range(min_len)]
+
     w_pq_of_av_cline_v = [4 * sum([av_cline[t][deme] * (1-av_cline[t][deme]) for deme in range(K)]) \
                           for t in range(min_len)]
+    w_max_of_av_cline_v = [3/4 * i for i in w_pq_of_av_cline_v]
+    if plot:
+        '''
+        av_cline_conf_int = [[stats.bayes_mvs([freqs_vv[r_i][t][deme] for r_i in range(realizations)])[0][1] \
+                    for deme in range(K)] for t in range(min_len)]
+                    
+        av_cline_low = np.array([[av_cline_conf_int[t][deme][0] for deme in range(K)]\
+                                 for t in range(min_len)])
+        col_mean = np.nanmean(av_cline_low, axis=0)
+        indices = np.where(np.isnan(av_cline_low))
+        av_cline_low[indices] = np.take(col_mean, indices[1])
+        
+        av_cline_high = np.array([[av_cline_conf_int[t][deme][1] for deme in range(K)]\
+                                 for t in range(min_len)])
+        col_mean = np.nanmean(av_cline_high, axis=0)
+        indices = np.where(np.isnan(av_cline_high))
+        av_cline_high[indices] = np.take(col_mean, indices[1])
+        '''
+        
+        w_max_of_av_cline_v_i_v = []
+        for i in range(bootstrap_n):
+            indices = np.random.randint(0, realizations, realizations)
+            av_cline_i = [[np.mean([freqs_vv[r_i][t][deme] for r_i in indices])\
+                                   for deme in range(K)] for t in range(min_len)]
+            w_max_of_av_cline_v_i = [3 * sum([av_cline_i[t][deme] * (1-av_cline_i[t][deme]) for deme in range(K)]) \
+                                             for t in range(min_len)]
+            w_max_of_av_cline_v_i_v.append(w_max_of_av_cline_v_i)
+            
+#        w_max_of_av_cline_v_sds = np.sqrt(np.var(w_max_of_av_cline_v_i_v, 0))
+#        
+#        w_max_of_av_cline_v_low = np.array(w_max_of_av_cline_v) - 1.96*w_max_of_av_cline_v_sds
+#        w_max_of_av_cline_v_high = np.array(w_max_of_av_cline_v) + 1.96*w_max_of_av_cline_v_sds
+        w_max_of_av_cline_v_low = np.percentile(w_max_of_av_cline_v_i_v, 2.5, 0)
+        w_max_of_av_cline_v_high = np.percentile(w_max_of_av_cline_v_i_v, 97.5, 0)
+#        w_max_of_av_cline_v_high = [3 * np.nansum([av_cline_high[t][deme] * (1-av_cline_high[t][deme]) for deme in range(K)]) \
+#                          for t in range(min_len)]  
+        
+
     
     av_w_pq_of_cline = sum(w_pq_mean_v)/realizations
 
@@ -286,9 +334,10 @@ for s_i, s in enumerate(s_v):
     
     av_w_pq_of_cline_v = [sum([w_pq_vv[r_i][t] for r_i in range(realizations)])/realizations \
                            for t in range(min_len)]
-
+    percentile_low_w_max_v = 3/4 * np.percentile(w_pq_vv, 2.5, 0)
+    percentile_high_w_max_v = 3/4 * np.percentile(w_pq_vv, 97.5, 0)
     
-    w_max_of_av_cline_v = [3/4 * i for i in w_pq_of_av_cline_v]
+    
     av_w_max_of_cline_v = [3/4 * i for i in av_w_pq_of_cline_v]
 
     w_max_of_av_cline = sum(w_max_of_av_cline_v[-n_w:])/n_w
@@ -301,22 +350,39 @@ for s_i, s in enumerate(s_v):
     #w_max_of_av_cline_v = 
     x = list(range(min_len))
     
-    labels = [r'$\overline{w(p)}$', r'$w(\overline{p})$', r'$(1-\overline{F} ) w(\overline{p})$', r'$\sqrt{\frac{3}{s}} \sigma$']
+    labels = [r'$w(\overline{p})$', r'$\overline{w(p)}$', '95% CI',\
+              '95% CI', r'$(1-\overline{F} ) w(\overline{p})$', r'$\sqrt{\frac{3}{s}} \sigma$']
               
-    args = [[x,x,x,x], [av_w_max_of_cline_v, w_max_of_av_cline_v, w_max_of_av_cline_v_modif, [w_theo for i in range(min_len)]],\
+    args = [[x,x,x,x,x,x], [w_max_of_av_cline_v, av_w_max_of_cline_v, percentile_low_w_max_v, \
+            percentile_high_w_max_v, w_max_of_av_cline_v_modif, [w_theo for i in range(min_len)]],\
                 'iteration / %d' % resolution, 'w', r'w(time), $\sigma =$ %.1f, s = %.3f' % (sigma, s),\
-                '0119_w_s_%.3f_sigma_%.1f_rscl_%.2f.png' % (s, sigma, rescale * rescale_factor), labels]
+                '0119_w_s_%.3f_sigma_%.1f_rscl_%.2f.eps' % (s, sigma, rescale * rescale_factor), labels]
     
     if rescale:
         args[-3] = r'w(time), $\sigma =$ %.1f, s = %.3f, rescale = %.1f' % (sigma, s, rescale_factor)
-
+        
     if plot:
         PlotAndSave(*args)
+        
+    if tm:
+        for j, v in enumerate([w_max_of_av_cline_v, av_w_max_of_cline_v, percentile_low_w_max_v,\
+                               percentile_high_w_max_v, w_max_of_av_cline_v_modif]):
+            v_temp = []
+            for i in range(min_len):
+                mean = np.mean(v[:i+1])
+                v_temp.append(mean)
+            args[1][j] = v_temp
+        args[-2] = '0119_w_s_%.3f_sigma_%.1f_rscl_%.2f_tm_%d.eps' % (s, sigma, rescale * rescale_factor, tm) 
+        
+        if plot:
+            PlotAndSave(*args)
     
     
     with open(filename, 'a') as f:
-        f.write('%f,%d,%d,%f,%f,%f,%f,%d,%f\n' % \
-                (s, K, N, sigma, av_w_pq_of_cline, w_pq_of_av_cline, w_theo, realizations, F_mean))
+        f.write('%f,%d,%d,%f,%f,%f,%f,%d,%f,%d\n' % \
+                (s, K, N, sigma, av_w_pq_of_cline, \
+                 w_pq_of_av_cline, w_theo, realizations, \
+                 F_mean, n_w*resolution))
     
     if savedata:
         filenamedata = 'freqs_vv_s_%.1e_sigma_%.1e_rscl_%.2f_' % (s, sigma, rescale * rescale_factor)
