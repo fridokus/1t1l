@@ -53,7 +53,7 @@ filename = '0119_output_' + computername + '.txt'
 
 # Parametersc
 K = K0 = 150
-N = N0 = 25
+N = N0 = 100
 
 s_v = [1e-3]
 deme_cutoff_v = [0]
@@ -65,6 +65,7 @@ n_w_v = [500000 for i in range(len(s_v))] # 2000
 delay = 1000
 
 notifications = 5
+printprogress = 1
 
 len_H_v = 2
 len_H_v_by_2 = int(len_H_v/2)
@@ -80,7 +81,7 @@ rescale_factor = 4
 
 
 
-mu = .15 / N / K / 20 # 1e-5 for K = 150, N = 100
+mu = .15 / N / K / # 1e-5 for K = 150, N = 100
 
 tol_equil = 1e-1 # 1e-5?
 
@@ -225,7 +226,7 @@ for s_i, s in enumerate(s_v):
             
             if (not iteration % resolution) and (iteration > delay):
                 
-                if not iteration % int(n_w/notifications):
+                if (not iteration % int(n_w/notifications)) and printprogress:
                     print('%.2f done' % ((w_iter*resolution + delay)/(n_w*resolution + delay)))
             
                 freqs = [0 for i in range(K)]
