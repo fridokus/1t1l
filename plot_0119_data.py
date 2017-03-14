@@ -39,36 +39,40 @@ def PlotAndSave(xarrays,yarrays,xlabel,ylabel,title,savename,labels):
     plt.show()
     plt.clf()
 
-def PlotAndSave2(xarrays,yarrays,xlabel,ylabel,title,savename):
-   
+def PlotAndSave2(xarrays,yarrays,xlabel,ylabel,title,savename,labels):
+            
     for i in range(len(yarrays)):
-        if i == 1:
+        if i == 7:
             marker = '-'
         else:
             marker = '.'
         
         plt.plot(xarrays[i], yarrays[i][0:len(xarrays[i])],marker,\
-                 c = plt.cm.gnuplot(i/len(yarrays)))
+                 c = plt.cm.gnuplot(i/len(yarrays)), label = labels[i])
         
         #legend_line.append(mlines.Line2D([], [], color=plt.cm.rainbow(i/len(yarrays)), label=r'$S_%d$' % i))
     
     # plt.legend(handles=legend_line)
+    plt.legend(bbox_to_anchor=(1, 1), loc=2, borderaxespad=0.)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
-    axes = plt.gca()
-    axes.set_ylim([0, .4])
     plt.title(title)
     plt.grid(True)
-    plt.subplots_adjust(left=0.1, right=.9, top=0.9, bottom=0.1)
+    plt.subplots_adjust(left=0.12, right=.8, top=0.9, bottom=0.1)
     plt.savefig(savename, format='eps', dpi=900)
     plt.show()
     plt.clf()
-            
-df = pd.read_csv('0119_data_long.txt')
 
-sigma_vv = [[.5, 1]]
-K_v = [150]
+df = pd.read_csv('0119_data.txt')
+sigma_vv = [[.5, 1, 2], [.25]]
+K_v = [150, 37]
+# sigma_vv = [[.5, 1]]
+# K_v = [150]
 
+rel_diff_final = []
+sigma_v_final = []
+w_theo_v_final = []
+K_v_final = []
 
 for K_i, sigma_v in enumerate(sigma_vv):
 
@@ -90,9 +94,14 @@ for K_i, sigma_v in enumerate(sigma_vv):
         N_v.append(df['N'][df['sigma'] == sigma][df['K'] == K])
         #w_theo_vv.append(df['w_theo'][df['sigma'] == sigma][df['K'] == K])
         w_theo_here = df['w_theo'][df['sigma'] == sigma][df['K'] == K]
+        w_theo_v_final.append(w_theo_here)
         F_vv.append(df['<F>'][df['sigma'] == sigma][df['K'] == K])
         w_of_av_p_modif_vv.append((1 - F_vv[i]) * w_of_av_p_vv[i])
-        rel_diff_vv.append(np.abs(w_of_av_p_vv[-1] - w_theo_here)/w_theo_here)
+        rel_diff = np.abs(w_of_av_p_vv[-1] - w_theo_here)/w_theo_here
+        rel_diff_vv.append(rel_diff)
+        rel_diff_final.append(rel_diff)
+        K_v_final.append(K)
+        sigma_v_final.append(sigma)
     
     
     s_v_theo = np.arange(np.min(s_vv[0])/4*3.5, np.max(s_vv[0]) + np.min(s_vv[0]), 1e-4)
@@ -109,17 +118,18 @@ for K_i, sigma_v in enumerate(sigma_vv):
                     r'$1/\sqrt{s}$', r'$w$', r'$w(1/\sqrt{s})$, $\sigma$ = %.2f, K = %d, N = %d' % (sigma, K, N),\
                     'w_of_s_K_%d_nr_%d_0.eps' % (K, i), labels]
                 
-        PlotAndSave(*args)
+#        PlotAndSave(*args)
 
 #sigma_v = np.squeeze(sigma_vv)    
-    labels = [r'$\sigma$ = ' + str(sigma_v[i]) for i in range(len(sigma_v))]
-    args = [[1/np.sqrt(s_vv[i]) for i in range(len(sigma_v))],\
-                [rel_diff_vv[i] for i in range(len(sigma_v))],\
-                    r'$1/\sqrt{s}$', r'$\left| w(\overline{p}) - \sqrt{\frac{3}{s}} \sigma \right| /\sqrt{\frac{3}{s}} \sigma$',\
-                    r'Simulated and theoretical $w$, relative difference',\
-                    'rel_diff_K_%d_0.eps' % K, labels]
-                
-    PlotAndSave(*args)
+datapts = len(sigma_v_final)
+labels = [r'$\sigma$ = ' + str(sigma_v_final[i]) for i in range(datapts)]
+args = [[w_theo_v_final[i]*K_v_final[i]/150 for i in range(datapts)],\
+            [rel_diff_final[i] for i in range(datapts)],\
+                r'$\sqrt{\frac{3}{s}} \sigma $', r'$\left| w(\overline{p}) - \sqrt{\frac{3}{s}} \sigma \right| /\sqrt{\frac{3}{s}} \sigma$',\
+                r'Simulated and theoretical $w$, relative difference',\
+                'rel_diff_of_w.eps', labels]
+            
+PlotAndSave2(*args)
         
 '''
 s = round(float(10**(-7/4)), 6)
